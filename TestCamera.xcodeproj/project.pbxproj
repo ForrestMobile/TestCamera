@@ -20,6 +20,12 @@
 		A8FC1BA314BC3958007BFB30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1B8414BC3958007BFB30 /* Foundation.framework */; };
 		A8FC1BAB14BC3958007BFB30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8FC1BA914BC3958007BFB30 /* InfoPlist.strings */; };
 		A8FC1BAE14BC3958007BFB30 /* TestCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC1BAD14BC3958007BFB30 /* TestCameraTests.m */; };
+		A8FC1BC014BD2E13007BFB30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1BBF14BD2E13007BFB30 /* AVFoundation.framework */; };
+		A8FC1BC214BD3AF9007BFB30 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1BC114BD3AF9007BFB30 /* CoreFoundation.framework */; };
+		A8FC1BC414BD3B5D007BFB30 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1BC314BD3B5D007BFB30 /* OpenGLES.framework */; };
+		A8FC1BC614BD3B73007BFB30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1BC514BD3B73007BFB30 /* CoreMedia.framework */; };
+		A8FC1BC814BD3B86007BFB30 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1BC714BD3B86007BFB30 /* CoreVideo.framework */; };
+		A8FC1BCA14BD3C03007BFB30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC1BC914BD3C03007BFB30 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +43,27 @@
 		A8FC1B8214BC3958007BFB30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8FC1B8414BC3958007BFB30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8FC1B8614BC3958007BFB30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8FC1B8A14BC3958007BFB30 /* TestCamera-Info.plist */ = {isa = PBXFileReference; path = "TestCamera-Info.plist"; sourceTree = "<group>"; };
+		A8FC1B8A14BC3958007BFB30 /* TestCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestCamera-Info.plist"; sourceTree = "<group>"; };
 		A8FC1B8C14BC3958007BFB30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8FC1B8E14BC3958007BFB30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8FC1B9014BC3958007BFB30 /* TestCamera-Prefix.pch */ = {isa = PBXFileReference; path = "TestCamera-Prefix.pch"; sourceTree = "<group>"; };
-		A8FC1B9114BC3958007BFB30 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8FC1B9014BC3958007BFB30 /* TestCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCamera-Prefix.pch"; sourceTree = "<group>"; };
+		A8FC1B9114BC3958007BFB30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8FC1B9214BC3958007BFB30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A8FC1B9514BC3958007BFB30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A8FC1B9714BC3958007BFB30 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A8FC1B9714BC3958007BFB30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A8FC1B9814BC3958007BFB30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A8FC1B9F14BC3958007BFB30 /* TestCameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FC1BA014BC3958007BFB30 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A8FC1BA814BC3958007BFB30 /* TestCameraTests-Info.plist */ = {isa = PBXFileReference; path = "TestCameraTests-Info.plist"; sourceTree = "<group>"; };
+		A8FC1BA814BC3958007BFB30 /* TestCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestCameraTests-Info.plist"; sourceTree = "<group>"; };
 		A8FC1BAA14BC3958007BFB30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8FC1BAC14BC3958007BFB30 /* TestCameraTests.h */ = {isa = PBXFileReference; path = TestCameraTests.h; sourceTree = "<group>"; };
+		A8FC1BAC14BC3958007BFB30 /* TestCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCameraTests.h; sourceTree = "<group>"; };
 		A8FC1BAD14BC3958007BFB30 /* TestCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCameraTests.m; sourceTree = "<group>"; };
+		A8FC1BBF14BD2E13007BFB30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A8FC1BC114BD3AF9007BFB30 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A8FC1BC314BD3B5D007BFB30 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A8FC1BC514BD3B73007BFB30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A8FC1BC714BD3B86007BFB30 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A8FC1BC914BD3C03007BFB30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +71,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FC1BCA14BD3C03007BFB30 /* QuartzCore.framework in Frameworks */,
+				A8FC1B8714BC3958007BFB30 /* CoreGraphics.framework in Frameworks */,
+				A8FC1BC814BD3B86007BFB30 /* CoreVideo.framework in Frameworks */,
+				A8FC1BC614BD3B73007BFB30 /* CoreMedia.framework in Frameworks */,
+				A8FC1BC414BD3B5D007BFB30 /* OpenGLES.framework in Frameworks */,
+				A8FC1BC214BD3AF9007BFB30 /* CoreFoundation.framework in Frameworks */,
+				A8FC1BC014BD2E13007BFB30 /* AVFoundation.framework in Frameworks */,
 				A8FC1B8314BC3958007BFB30 /* UIKit.framework in Frameworks */,
 				A8FC1B8514BC3958007BFB30 /* Foundation.framework in Frameworks */,
-				A8FC1B8714BC3958007BFB30 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +118,12 @@
 		A8FC1B8114BC3958007BFB30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8FC1BC914BD3C03007BFB30 /* QuartzCore.framework */,
+				A8FC1BC714BD3B86007BFB30 /* CoreVideo.framework */,
+				A8FC1BC514BD3B73007BFB30 /* CoreMedia.framework */,
+				A8FC1BC314BD3B5D007BFB30 /* OpenGLES.framework */,
+				A8FC1BC114BD3AF9007BFB30 /* CoreFoundation.framework */,
+				A8FC1BBF14BD2E13007BFB30 /* AVFoundation.framework */,
 				A8FC1B8214BC3958007BFB30 /* UIKit.framework */,
 				A8FC1B8414BC3958007BFB30 /* Foundation.framework */,
 				A8FC1B8614BC3958007BFB30 /* CoreGraphics.framework */,
@@ -197,6 +221,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "EF Mobile";
 			};
 			buildConfigurationList = A8FC1B7814BC3958007BFB30 /* Build configuration list for PBXProject "TestCamera" */;
 			compatibilityVersion = "Xcode 3.2";

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVCaptureVideoDataOutputSampleBufferDelegate>{
+    
+@private
+    CALayer *customLayer;
+}
+
+@property (nonatomic,strong) CALayer *customLayer;
+@property (nonatomic,strong) AVCaptureSession *captureSession;
 
 @end
